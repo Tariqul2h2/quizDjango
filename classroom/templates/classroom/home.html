@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Welcome to the QuizZone! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to QuizZone, get started
+    by creating a <a href="{% url 'student_signup' %}">Contestant Account</a> or a <a href="{% url 'teacher_signup' %}">Moderator Account</a>.
+  </p>
+
+
+
+{% endblock %}
